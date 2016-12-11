@@ -1,0 +1,18 @@
+盒模型
+
+元素显示为一个矩形，内容处于矩形之中，称为content-box。
+内容到边框的距离为内边距，称为padding-box。
+边框所占的空间叫border-box。
+边框与元素相邻元素或父元素内边框间的距离称为外边距--margin
+
+元素默认为content-box，css属性为 box-sizing:content-box，这时元素的width，height的值不包括
+内边距(padding)和边框(border)的空间。
+
+当设置元素box-sizing:border-box时，元素的width，height包括内边距(padding)和边框(border)的空间。
+所以相同width height的两个div，如果设置了内边距或边框，那么content-box要比border-box所占的空间大。
+
+为了宽度高度的值更明确，通常在实际开发中设置所有元素为border-box
+*{box-sizing:border-box;}
+
+
+
