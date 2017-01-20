@@ -1,0 +1,10 @@
+浏览器缓存 Browser Cache
+Http缓存
+WebSql
+IndexDB
+Cookie 
+localStorage
+SessionStorage
+ApplicationCache
+CacheStorage
+Flash
